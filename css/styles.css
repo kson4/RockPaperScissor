@@ -11,7 +11,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* margin-bottom: 120px; */
+    margin-bottom: 100px;
 }
 
 .selection {
@@ -20,7 +20,6 @@ p {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    background-color: red;
     height: 70%;
 }
 

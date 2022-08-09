@@ -26,31 +26,6 @@ button.forEach((button) => {
     });
 });
 
-function getPlayerChoice() {
-    // const buttons = document.querySelectorAll("button");
-    // buttons.forEach((button) => {
-    //     button.addEventListener('click', () => {
-    //         //console.log(button.id);
-    //         if (button.id === "1") {
-    //             console.log("rock");
-    //             return ("rock");
-    //         }
-    //         else if (button.id === "2") {
-    //             console.log("paper");
-    //             return ("paper");
-    //         }
-    //         else if (button.id === "3") {
-    //             console.log("scissor");
-    //             return ("scissors");
-    //         }
-    //     });
-    //     console.log(button.id);
-    // });
-    // document.getElementById("1").addEventListener("click", function() {
-    //     playerRock();
-    // });
-}
-
 function playRound(playerSelection, computerSelection) {
     if (playerSelection === "rock") {
         if (computerSelection === "Paper") {
@@ -98,23 +73,3 @@ function incrementComputer() {
     let computerScore = document.getElementsByClassName("computerscore");
     computerScore[0].innerHTML++;
 }
-
-// let player = -1;
-// player = getPlayerChoice();
-
-// //console.log(getPlayerChoice());
-// console.log(player);
-
-// let playerCount = 0;
-// let computerCount = 0;
-// for (let i = 0; i < 5; i++) {
-//     let player = getPlayerChoice();
-//     let computer = getComputerChoice();
-//     let winner = playRound(player, computer);
-//     if (winner === 1)
-//         playerCount++;
-//     else if (winner === 0)
-//         computerCount++;
-// }
-
-// alert("Score: Player: " + playerCount + " Computer: " + computerCount);
